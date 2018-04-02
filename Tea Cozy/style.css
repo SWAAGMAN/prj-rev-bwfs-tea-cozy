@@ -1,0 +1,170 @@
+/* General */
+
+body {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    justify-content: center;
+    text-align: center;
+}
+
+h4 {
+    justify-content: center;
+    text-align: center;
+}
+
+h5 {
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* Header */
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    position: fixed;
+    display: inline-flex;
+    justify-content: space-between;
+    z-index: 2;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header nav {
+    justify-content: flex-end;
+}
+
+header span {
+    text-decoration: underline;
+}
+
+
+
+/* Mission */
+
+.mission {
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    position: relative;
+    top: 70px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+.mission-text {
+    color: seashell;
+    background-color: black;
+    height: 120px;
+    width: inherit;
+}
+
+
+
+/* Featured Tea */
+
+.feat-tea {
+    flex-direction: row;
+    position: relative;
+    top: 70px;
+    width: 1000px;
+}
+
+.img-txts {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-txt {
+    flex-direction: column;
+    display: inline-flex;
+}
+
+.img-txt img{
+    height: 200px;
+    width: 300px;
+}
+
+
+
+/* Locations */
+
+.locs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+    height: 500px;
+    width: 1200px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.locs .txts {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.locs .txt {
+    background-color: black;
+    color: seashell;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 15px;
+    opacity: 1;
+}
+
+
+
+/* Info */
+
+.info {
+    justify-content: center;
+    height: 200px;
+    position: relative;
+    top: 70px;
+}
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    margin-left: 20px;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
